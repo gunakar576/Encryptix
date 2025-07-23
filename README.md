@@ -6,7 +6,6 @@ Welcome to my internship portfolio! During my time at Encryptix , I worked on th
 
 This repository includes:
 - Exploratory Data Analysis (EDA)
--  Feature Engineering
 -  Model Building with Scikit-learn
 - Handling Class Imbalance
 - Evaluation Metrics
@@ -29,7 +28,6 @@ Predict whether a bank customer will churn using a Random Forest Classifier.
 ###  Highlights
 - Cleaned dataset and selected relevant features
 - Encoded categorical columns like `Gender` and `Geography`
-- Applied feature scaling
 - Trained a Random Forest model with `class_weight='balanced'`
 - Evaluated using classification metrics
 
@@ -44,7 +42,7 @@ Predict whether a bank customer will churn using a Random Forest Classifier.
 ##  Project 2: Spam SMS Detection using SVM
 
 ### Objective
-Classify SMS messages as spam or ham using NLP techniques and Support Vector Machine.
+Classify SMS messages as spam or ham using Support Vector Machine.
 
 ###  Dataset
 - `spam.csv`
@@ -78,7 +76,7 @@ Classify SMS messages as spam or ham using NLP techniques and Support Vector Mac
 Detect fraudulent credit card transactions in a highly imbalanced dataset.
 
 ###  Dataset
-- `creditcard.csv` (anonymized)
+- `fraudtrain.csv` 
 
 ###  Tools & Libraries
 - Python, Pandas, NumPy  
@@ -87,15 +85,13 @@ Detect fraudulent credit card transactions in a highly imbalanced dataset.
 
 ###  Highlights
 - Analyzed imbalanced class distribution
-- Used **SMOTE** for oversampling the minority class or used `class_weight='balanced'`
-- Trained both Logistic Regression and Random Forest models
+- Trained both Logistic Regression model
 - Focused on **recall** to reduce false negatives
 - Evaluated performance using confusion matrix, precision, recall, and F1-score
 
 ### Results
-- Improved fraud detection after balancing
 - Emphasis on high recall for fraud class
-- Demonstrated end-to-end fraud detection workflow
+- Demonstrate the prediction
 
 
 
