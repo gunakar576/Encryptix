@@ -1,39 +1,39 @@
 # Encryptix
 
-# 🔐 Internship Projects at Encryptix SSO
+# Internship Projects at Encryptix SSO
 
-Welcome to my internship portfolio! During my time at **Encryptix SSO**, I worked on three end-to-end machine learning projects, each targeting a real-world classification problem.
+Welcome to my internship portfolio! During my time at Encryptix , I worked on three end-to-end machine learning projects, each targeting a real-world classification problem.
 
 This repository includes:
-- 📊 Exploratory Data Analysis (EDA)
-- 🧠 Feature Engineering
-- 🤖 Model Building with Scikit-learn
-- ⚖️ Handling Class Imbalance
-- 📈 Evaluation Metrics
+- Exploratory Data Analysis (EDA)
+-  Feature Engineering
+-  Model Building with Scikit-learn
+- Handling Class Imbalance
+- Evaluation Metrics
 
 ---
 
-## 🧠 Project 1: Customer Churn Prediction
+##  Project 1: Customer Churn Prediction
 
-### 📌 Objective
+###  Objective
 Predict whether a bank customer will churn using a Random Forest Classifier.
 
-### 📁 Dataset
+###  Dataset
 - `Churn_Modelling.csv`
 
-### 🛠️ Tools & Libraries
+### 🛠 Tools & Libraries
 - Python, Pandas, NumPy  
 - Matplotlib, Seaborn  
 - Scikit-learn (RandomForestClassifier, StandardScaler, metrics)
 
-### 🔍 Highlights
+###  Highlights
 - Cleaned dataset and selected relevant features
 - Encoded categorical columns like `Gender` and `Geography`
 - Applied feature scaling
 - Trained a Random Forest model with `class_weight='balanced'`
 - Evaluated using classification metrics
 
-### ✅ Results
+###  Results
 - **Accuracy**: 86.15%  
 - **Precision**: 78.76%  
 - **Recall**: 43.73%  
@@ -41,20 +41,20 @@ Predict whether a bank customer will churn using a Random Forest Classifier.
 
 ---
 
-## 📬 Project 2: Spam SMS Detection using SVM
+##  Project 2: Spam SMS Detection using SVM
 
-### 📌 Objective
+### Objective
 Classify SMS messages as spam or ham using NLP techniques and Support Vector Machine.
 
-### 📁 Dataset
+###  Dataset
 - `spam.csv`
 
-### 🛠️ Tools & Libraries
+### Tools & Libraries
 - Python, Pandas  
 - Seaborn, Matplotlib  
 - Scikit-learn (`TfidfVectorizer`, `SVC`, `train_test_split`, `classification_report`)
 
-### 🔍 Highlights
+###  Highlights
 - Cleaned raw dataset and retained only relevant columns
 - Mapped `ham → 0`, `spam → 1`
 - Created `Message_Length` feature
@@ -62,6 +62,6 @@ Classify SMS messages as spam or ham using NLP techniques and Support Vector Mac
 - Converted text using `TfidfVectorizer`
 - Trained an SVM classifier with a linear kernel
 
-### ✅ Results
+###  Results
 - **Accuracy**: 97.93%  
 - **Confusion Matrix**:
