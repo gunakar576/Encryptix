@@ -72,46 +72,30 @@ Classify SMS messages as spam or ham using NLP techniques and Support Vector Mac
 
 ---
 
-## 💳 Project 3: Credit Card Fraud Detection
+##  Project 3: Credit Card Fraud Detection
 
-### 📌 Objective
+###  Objective
 Detect fraudulent credit card transactions in a highly imbalanced dataset.
 
-### 📁 Dataset
+###  Dataset
 - `creditcard.csv` (anonymized)
 
-### 🛠️ Tools & Libraries
+###  Tools & Libraries
 - Python, Pandas, NumPy  
 - Seaborn, Matplotlib  
 - Scikit-learn (`RandomForestClassifier`, `LogisticRegression`, `SMOTE`, metrics)
 
-### 🔍 Highlights
+###  Highlights
 - Analyzed imbalanced class distribution
 - Used **SMOTE** for oversampling the minority class or used `class_weight='balanced'`
 - Trained both Logistic Regression and Random Forest models
 - Focused on **recall** to reduce false negatives
 - Evaluated performance using confusion matrix, precision, recall, and F1-score
 
-### ✅ Results
+### Results
 - Improved fraud detection after balancing
 - Emphasis on high recall for fraud class
 - Demonstrated end-to-end fraud detection workflow
 
----
 
-## 📁 Folder Structure
-
-```bash
-Encryptix-Internship/
-│
-├── 📁 Project_1_Customer_Churn/
-│   └── Churn_Prediction.ipynb
-│
-├── 📁 Project_2_Spam_SMS_Detection/
-│   └── SPAM_SMS_DETECTION.ipynb
-│
-├── 📁 Project_3_Credit_Card_Fraud/
-│   └── CREDIT_CARD_FRAUD_DETECTION.ipynb
-│
-└── README.md
 
