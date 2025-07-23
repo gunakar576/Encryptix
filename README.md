@@ -81,7 +81,7 @@ Detect fraudulent credit card transactions in a highly imbalanced dataset.
 ###  Tools & Libraries
 - Python, Pandas, NumPy  
 - Seaborn, Matplotlib  
-- Scikit-learn (`RandomForestClassifier`, `LogisticRegression`, `SMOTE`, metrics)
+- Scikit-learn ( `LogisticRegression` metrics)
 
 ###  Highlights
 - Analyzed imbalanced class distribution
